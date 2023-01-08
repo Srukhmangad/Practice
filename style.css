@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(222, 244, 237);
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(90, 179, 179);
+  
+}
+
+header nav img {
+  width: 120px;
+}
+header ul {
+  list-style: none;
+}
+
+header ul a {
+  text-decoration: none;
+  color: black;
+}
+
+header ul a:hover {
+  text-decoration: none;
+  color: rgba(16, 0, 0, 0.651);
+}
+
+.nav-link {
+  display: block;
+  float: left;
+  align-items: center;
+  padding: 10px 12px;
+  font-size: 20px;
+}
+
+#header {
+  display: flex;
+  height: 70px;
+}
+
+.message-box {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.message-box h1 {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+#email {
+  font-size: 20px;
+  text-align: center;
+  height: 35px;
+}
+
+.message-box input {
+  display: block;
+  margin: auto;
+  width: 20%;
+  border-radius: 5px;
+
+  margin-bottom: 8px;
+}
+
+.message-box input:focus {
+  display: block;
+  margin: auto;
+  width: 20%;
+  margin-bottom: 8px;
+}
+
+#submit {
+  background-color: orange;
+  padding: 10px 30px;
+  font-size: 15px;
+  border: 2px solid black;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgba(255, 166, 0, 0.788);
+  padding: 10px 30px;
+  font-size: 15px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+#submit:active,
+#submit:focus {
+  cursor: pointer;
+  color: orange;
+  background-color: black;
+  padding: 10px 30px;
+  font-size: 15px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+
+#features {
+  display: flex;
+  padding: 25px;
+  width: 100%;
+  margin: auto;
+}
+
+.feature {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 40px;
+  margin: 30px 50px;
+}
+
+.feature i {
+  color: orange;
+  padding:  25px;
+  display: block;
+  width: auto;
+  height: 90px;
+  
+}
+
+#features .feature div h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+#how-it-work {
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+}
+
+#how-it-work iframe {
+  width: 900px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+#pricing {
+  display: flex;
+  
+
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+
+.price-box {
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  background-image: linear-gradient(rgb(224, 206, 206), rgb(216, 232, 227));
+
+  justify-content: space-around;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  box-shadow: black 5px 5px 15px;
+}
+
+.price-box:hover {
+  border-radius: 20px;
+
+  transform: scale(1.1);
+  transition: border-radius 0.21s linear 0.1s, transform 0.21s linear 0.1s;
+}
+
+.price-box h3 {
+  font-size: 25px;
+}
+
+.price-box h2 {
+  font-size: 30px;
+}
+
+.price-box a {
+  font-size: 30px;
+  text-decoration: none;
+ 
+  color: white;
+}
+
+.price-box a:hover {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.795);
+ 
+}
+
+.btn {
+  background-color: black;
+  padding: 5px 10px;
+  margin:10px 40px;
+  border-radius: 25px;
+  
+}
+
+footer {
+  font-size: 15px;
+  height: 60px;
+  background-color: rgb(90, 179, 179);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  text-align: end;
+}
+
+footer div {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
